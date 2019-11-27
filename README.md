@@ -10,10 +10,8 @@ public class CircleMain {
 		frame.getContentPane().add(new CirclePanel());
 		frame.setSize(500, 500);
 		frame.setVisible(true);
-		
-	
 	}
-  import javax.swing.JPanel;
+import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -47,8 +45,7 @@ public class CirclePanel extends JPanel{
 			point2 = event.getPoint();
 			distance = (int)Math.sqrt(Math.pow(point2.x - point1.x,2)
 					+ Math.pow((point2.y - point2.y), 2));
-			repaint(); 
-		
+			repaint(); 	
 	}
 	//provide empty definitions for unused mouse events
 	public void mouseEntered(MouseEvent event) {}
